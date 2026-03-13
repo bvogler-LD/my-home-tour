@@ -154,7 +154,7 @@ export default function AdminRoomDetailPage() {
                 onChange={(e) => setLayoutName(e.target.value)}
                 required
                 placeholder="e.g. Option A"
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -163,7 +163,7 @@ export default function AdminRoomDetailPage() {
                 type="text"
                 value={layoutDesc}
                 onChange={(e) => setLayoutDesc(e.target.value)}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="flex gap-2">
